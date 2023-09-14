@@ -1,14 +1,15 @@
 const bingoCells = function () {
   const cellsDiv = document.getElementById("cells");
-
+  const repeatArray = [];
   for (let i = 0; i < 27; i++) {
     const cellDiv = document.createElement("div");
     cellDiv.classList.add("cellNumbers");
     const random = Math.floor(Math.random() * 76);
     console.log(random);
-    const repeatArray = [];
 
-    if (repeatArray.indexOf(random) === -1) {
+    if (random === 0) {
+      i--;
+    } else if (repeatArray.indexOf(random) === -1) {
       console.log(repeatArray);
       cellDiv.innerHTML = `
     <p>${random}</p>

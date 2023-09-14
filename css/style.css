@@ -1,117 +1,119 @@
 html {
-    scroll-behavior: smooth;
-  }
-  body {
-    margin: 0;
-    background: rgb(247,24,24);
-    background: linear-gradient(117deg, rgba(247,24,24,1) 24%, rgba(123,240,20,1) 50%, rgba(1,48,232,1) 72%, rgba(207,29,74,1) 88%);;
-    font-family: 'Outfit', sans-serif;
-    color: #ebebeb;
-  }
-  main {
-    max-width: 90%;
-    margin-inline: auto;
-  }
-  h1 {
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 80px;
-    font-weight: 900;
-    position: relative;
-     margin: 20px;
-  }
-  h2 {
-    display: inline-block;
-    margin-top: 5%;
-    padding-left: 20%;
-    font-size: 36px;
-    font-weight: 900;
-    margin-bottom: 1rem;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: rgb(247, 24, 24);
+  background: linear-gradient(
+    117deg,
+    rgba(247, 24, 24, 1) 24%,
+    rgba(123, 240, 20, 1) 50%,
+    rgba(1, 48, 232, 1) 72%,
+    rgba(207, 29, 74, 1) 88%
+  );
+  font-family: "Outfit", sans-serif;
+  color: #ebebeb;
+}
+main {
+  max-width: 90%;
+  margin-inline: auto;
+}
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 80px;
+  font-weight: 900;
+  position: relative;
+  margin: 20px;
+}
+h2 {
+  display: inline-block;
+  margin-top: 5%;
+  padding-left: 20%;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 1rem;
 
-    color:rgb(255, 255, 255);
-  }
-  #extractedNumber {
-    display: inline-block;
-    margin-top: 5%;
-    padding-left: 5%;
-    font-size: 50px;
-    font-weight: 900;
-    margin-bottom: 1rem;
-    color: navy;
-  }
-  .roll {
-    display: inline-block;
-    margin: 5% 20%;
-    background-image: url(../assets/bingo-icon-22.jpg);
-    width: 70PX;
-    height: 70PX;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 100%;
-    border: none;
-  }
-  #pickNumber {
-    display: inline-block;
-    margin: 5% 20%;
-    background-image: url(../assets/bingo-icon-22.jpg);
-    width: 70PX;
-    height: 70PX;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 100%;
-    border: none;
-  }
+  color: rgb(255, 255, 255);
+}
+#extractedNumber {
+  display: inline-block;
+  margin-top: 5%;
+  padding-left: 5%;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: navy;
+}
+.roll {
+  display: inline-block;
+  margin: 5% 20%;
+  background-image: url(../assets/bingo-icon-22.jpg);
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+  border: none;
+}
+#pickNumber {
+  display: inline-block;
+  margin: 5% 20%;
+  background-image: url(../assets/bingo-icon-22.jpg);
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+  border: none;
+}
 
-    #cells {
-        background: rgb(255, 255, 255);
-        border: 5px solid black;
-        
-    }
-  
-    .numberList {
+#cells {
+  border: 5px solid black;
+}
 
-  }
+.numberList {
+}
 
-  h3 {
-    display: inline-block;
-    margin-top: 5%;
-    padding-left: 20%;
-    font-size: 36px;
-    font-weight: 900;
-    margin-bottom: 1rem;
+h3 {
+  display: inline-block;
+  margin-top: 5%;
+  padding-left: 20%;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 1rem;
 
-    color:rgb(255, 255, 255);
-  }
-  footer {
-    margin: 10%;
-    text-align: center;
-    color: black;
-  }
-  .copyright    {
-    margin: 5%;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  form {
-    display: inline;
-  }
-  .cellNumbers {
-        display: inline-block;
-        width: 10%;
-        height: 10%;
-        margin: 5px;
-        position: relative;
-        border: 3px solid black;
-        border-radius: 8px;
-        cursor: pointer;
-  }
-  .cellNumbers p{
-    font-size: 36px;
-    color: black;
-    text-align: center;
-    margin-top: 20px
-  }
-
+  color: rgb(255, 255, 255);
+}
+footer {
+  margin: 10%;
+  text-align: center;
+  color: black;
+}
+.copyright {
+  margin: 5%;
+  font-size: 20px;
+  font-weight: 700;
+}
+form {
+  display: inline;
+}
+.cellNumbers {
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+  margin: 5px;
+  position: relative;
+  border: 3px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cellNumbers p {
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
